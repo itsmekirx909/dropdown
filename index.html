@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <select id="drop1" onchange="val()">
+        <option selected disabled value="">Choose Company</option>
+    </select>
+
+<br>
+
+    <select disabled id="drop2" onchange="result()">
+        <option selected disabled value="">Choose Version</option>
+    </select>
+
+<div>storage: <span class="result"></span> ,</div>
+<div>input: <span class="result"></span> ,</div>
+<div>disc: <span class="result"></span> ,</div>
+<div>wifi: <span class="result"></span> </div>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
